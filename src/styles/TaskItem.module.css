@@ -1,0 +1,67 @@
+.taskItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.checkbox {
+  margin-right: 10px;
+}
+
+.textContainer {
+  flex: 1;
+  min-width: 0;
+  word-break: break-word;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.details {
+  font-size: 0.85em;
+  color: #555;
+  margin-top: 5px;
+}
+
+.priority,
+.dueDate {
+  margin-right: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.editButtonsContainer {
+  margin-left: auto;
+}
+
+.editButton,
+.deleteButton,
+.saveButton,
+.cancelButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.deleteButton {
+  background-color: red;
+}
+
+.saveButton {
+  background-color: rgb(27, 192, 38);
+}
+
+.cancelButton {
+  background-color: red;
+}
